@@ -49,7 +49,8 @@ defmodule Zhome.MixProject do
        nerves: [compile: true]},
 
       # My deps
-      {:grizzly, "~> 0.18.3"}
+      # {:grizzly, "~> 0.19.0"}
+      {:grizzly, git: "https://github.com/smartrent/grizzly.git", branch: "config-rf-region"}
     ]
   end
 
